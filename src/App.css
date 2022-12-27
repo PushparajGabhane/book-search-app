@@ -1,0 +1,46 @@
+.heading {
+  text-align: center;
+  background-image: url("./assets/Images/headBack.jpg");
+  height: 100px;
+  padding-top: 40px;
+  color: white;
+}
+
+.display-books {
+  text-align: center;
+  background-image: url("./assets/Images/plainBack.jpg");
+  margin: auto;
+}
+
+.image-section {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.book-image a img {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 40vh;
+}
+
+.book-image a img:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+.search {
+  height: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
